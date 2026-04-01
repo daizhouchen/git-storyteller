@@ -2,7 +2,7 @@
 
 > Turn boring Git history into a cinematic project documentary.
 
-A [Claude Code](https://claude.ai/code) skill that transforms Git repository commit history into a beautiful, interactive HTML narrative report — complete with timelines, contributor profiles, dramatic events, and code evolution charts.
+An [OpenClaw](https://openclawskill.ai) skill that transforms Git repository commit history into a beautiful, interactive HTML narrative report — complete with timelines, contributor profiles, dramatic events, and code evolution charts.
 
 ## Features
 
@@ -15,10 +15,10 @@ A [Claude Code](https://claude.ai/code) skill that transforms Git repository com
 
 ## Installation
 
-Add this skill to Claude Code:
+Add this skill to OpenClaw:
 
 ```bash
-claude skill add daizhouchen/git-storyteller
+npx @anthropic-ai/claw@latest skill add daizhouchen/git-storyteller
 ```
 
 ## How It Works
@@ -40,7 +40,7 @@ python3 scripts/render.py
 
 ## Trigger Phrases
 
-Say any of these to Claude Code and this skill activates:
+Say any of these to OpenClaw and this skill activates:
 
 - "帮我看看这个仓库的历史"
 - "项目回顾" / "贡献分析"
